@@ -1,0 +1,90 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-gold: var(--gold);
+  --color-gold-light: var(--gold-light);
+  --color-gold-dark: var(--gold-dark);
+  --color-ivory: var(--ivory);
+  --color-cream: var(--cream);
+  --color-charcoal: var(--charcoal);
+  --color-brown: var(--brown);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --font-vazir: "Vazirmatn", "Tahoma", "Arial", sans-serif;
+}
+
+:root {
+  --radius: 0.5rem;
+  --background: #FAFAF8;
+  --foreground: #2D2D2D;
+  --card: #FFFFFF;
+  --card-foreground: #2D2D2D;
+  --primary: #2D2D2D;
+  --primary-foreground: #FAFAF8;
+  --secondary: #F5F0E8;
+  --secondary-foreground: #2D2D2D;
+  --muted: #F0EDE6;
+  --muted-foreground: #7A7468;
+  --accent: #C5A55A;
+  --accent-foreground: #2D2D2D;
+  --destructive: #C45454;
+  --border: #E8E3D8;
+  --input: #E8E3D8;
+  --ring: #C5A55A;
+  --gold: #C5A55A;
+  --gold-light: #D4BA78;
+  --gold-dark: #A68A3E;
+  --ivory: #F5F0E8;
+  --cream: #FFF8E7;
+  --charcoal: #2D2D2D;
+  --brown: #3D2B1F;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-vazir antialiased;
+  }
+  button:not([disabled]),
+  [role="button"]:not([disabled]) {
+    cursor: pointer;
+  }
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--muted);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--muted-foreground);
+}
