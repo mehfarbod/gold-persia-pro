@@ -10,7 +10,7 @@ import { useAuth } from "@/contexts/AuthContext";
 // Mock orders — replace with real data source
 const mockOrders = [
   {
-    id: "GS-102345",
+    id: "GL-102345",
     date: "۱۴۰۴/۰۶/۱۵",
     total: 18_500_000,
     status: "delivered",
@@ -18,7 +18,7 @@ const mockOrders = [
     items: 2,
   },
   {
-    id: "GS-102280",
+    id: "GL-102280",
     date: "۱۴۰۴/۰۵/۲۸",
     total: 32_000_000,
     status: "shipped",

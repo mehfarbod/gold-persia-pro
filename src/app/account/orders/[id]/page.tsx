@@ -9,7 +9,7 @@ import Footer from "@/components/layout/Footer";
 
 // Mock order detail — replace with real data
 const mockOrder = {
-  id: "GS-102345",
+  id: "GL-102345",
   date: "۱۴۰۴/۰۶/۱۵",
   status: "delivered",
   statusLabel: "تحویل شده",

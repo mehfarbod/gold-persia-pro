@@ -40,10 +40,10 @@ export default function Header() {
       {/* Top bar */}
       <div className="hidden lg:block border-b border-border/50 bg-secondary/30">
         <div className="max-w-7xl mx-auto px-4 h-8 flex items-center justify-between text-xs text-muted-foreground">
-          <span>ارگانیک با فاکتور معتبر و ضمانت اصالت</span>
+          <span>Goldshop — فاکتور معتبر، ضمانت اصالت</span>
           <div className="flex items-center gap-4">
             <span>پشتیبانی: ۰۲۱-۱۲۳۴۵۶۷۸</span>
-            <span>|</span>
+            <span>·</span>
             <span>ارسال رایگان بالای ۵۰ میلیون تومان</span>
           </div>
         </div>
@@ -63,11 +63,11 @@ export default function Header() {
 
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
-            <div className="w-8 h-8 lg:w-10 lg:h-10 rounded-full bg-charcoal flex items-center justify-center">
-              <span className="text-gold font-bold text-sm lg:text-lg">گ</span>
+            <div className="w-8 h-8 lg:w-10 lg:h-10 rounded-full bg-gold flex items-center justify-center">
+              <span className="text-white font-bold text-sm lg:text-lg">G</span>
             </div>
             <span className="text-lg lg:text-xl font-bold text-charcoal hidden sm:block">
-              گلدستون
+              Goldshop
             </span>
           </Link>
 
@@ -120,7 +120,7 @@ export default function Header() {
             >
               <ShoppingBag className="w-5 h-5 text-muted-foreground" />
               {itemCount > 0 && (
-                <span className="absolute -top-0.5 -start-0.5 w-4.5 h-4.5 bg-gold text-white text-[10px] font-bold rounded-full flex items-center justify-center">
+                <span className="absolute -top-0.5 -start-0.5 min-w-[18px] h-[18px] bg-gold text-white text-[10px] font-bold rounded-full flex items-center justify-center">
                   {itemCount > 99 ? "99+" : itemCount}
                 </span>
               )}

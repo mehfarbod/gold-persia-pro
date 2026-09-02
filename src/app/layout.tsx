@@ -7,12 +7,12 @@ import { Toaster } from "sonner";
 
 export const metadata: Metadata = {
   title: {
-    default: "گلدستون | فروشگاه طلا و جواهرات",
-    template: "%s | گلدستون",
+    default: "Goldshop | فروشگاه آنلاین طلا و جواهرات",
+    template: "%s | Goldshop",
   },
   description:
-    "فروشگاه آنلاین طلا و جواهرات اصل با فاکتور معتبر، قیمت لحظه‌ای طلا و ارسال مطمئن",
-  keywords: ["طلا", "جواهرات", "انگشتر", "گردنبند", "دستبند", "گوشواره", "سکه", "شمش"],
+    "Goldshop — خرید آنلاین طلا و جواهرات اصل با فاکتور معتبر، قیمت لحظه‌ای طلا و ارسال بیمه‌شده به سراسر کشور.",
+  keywords: ["طلا", "جواهرات", "انگشتر", "گردنبند", "دستبند", "گوشواره", "سکه", "شمش", "goldshop"],
 };
 
 export default function RootLayout({

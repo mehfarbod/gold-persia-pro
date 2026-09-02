@@ -30,13 +30,13 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <div className="w-10 h-10 rounded-full bg-gold flex items-center justify-center">
-                <span className="text-white font-bold text-lg">گ</span>
+                <span className="text-white font-bold text-lg">G</span>
               </div>
-              <span className="text-xl font-bold text-white">گلدستون</span>
+              <span className="text-xl font-bold text-white">Goldshop</span>
             </div>
             <p className="text-sm leading-7 text-white/60">
-              فروشگاه آنلاین طلا و جواهرات اصل با بیش از ۱۰ سال تجربه.
-              تمامی محصولات دارای فاکتور معتبر و گواهی اصالت هستند.
+              خرید آنلاین طلا و جواهرات اصل با فاکتور معتبر و گواهی اصالت.
+              قیمت لحظه‌ای، ارسال بیمه‌شده، و پشتیبانی تخصصی.
             </p>
             <div className="mt-6 space-y-2">
               <a
@@ -47,15 +47,15 @@ export default function Footer() {
                 ۰۲۱-۱۲۳۴۵۶۷۸
               </a>
               <a
-                href="mailto:info@goldstone.ir"
+                href="mailto:support@goldshop.ir"
                 className="flex items-center gap-2 text-sm text-white/60 hover:text-gold transition-colors"
               >
                 <Mail className="w-4 h-4" />
-                info@goldstone.ir
+                support@goldshop.ir
               </a>
               <div className="flex items-center gap-2 text-sm text-white/60">
                 <MapPin className="w-4 h-4" />
-                تهران، بازار بزرگ
+                تهران، بازار بزرگ طلا و جواهر
               </div>
             </div>
           </div>
@@ -132,7 +132,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="mt-12 pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-white/40">
-            © ۱۴۰۴ گلدستون. تمامی حقوق محفوظ است.
+            © ۱۴۰۴ Goldshop. تمامی حقوق محفوظ است.
           </p>
           <div className="flex items-center gap-4 text-xs text-white/40">
             <Link href="/terms" className="hover:text-gold transition-colors">

@@ -74,7 +74,7 @@ export default function CheckoutPage() {
               سفارش با موفقیت ثبت شد!
             </h2>
             <p className="mt-2 text-sm text-muted-foreground">
-              سفارش شما با شماره <span className="font-mono">#GS-{Date.now().toString().slice(-6)}</span> ثبت
+              سفارش شما با شماره <span className="font-mono">#GL-{Date.now().toString().slice(-6)}</span> ثبت
               شد و به زودی پردازش خواهد شد.
             </p>
             <div className="mt-6 flex flex-col gap-2">

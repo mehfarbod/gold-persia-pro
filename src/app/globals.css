@@ -23,6 +23,8 @@
   --color-gold: var(--gold);
   --color-gold-light: var(--gold-light);
   --color-gold-dark: var(--gold-dark);
+  --color-navy: var(--navy);
+  --color-navy-light: var(--navy-light);
   --color-ivory: var(--ivory);
   --color-cream: var(--cream);
   --color-charcoal: var(--charcoal);
@@ -36,29 +38,31 @@
 
 :root {
   --radius: 0.5rem;
-  --background: #FAFAF8;
-  --foreground: #2D2D2D;
+  --background: #FAFAF7;
+  --foreground: #1A1A1A;
   --card: #FFFFFF;
-  --card-foreground: #2D2D2D;
-  --primary: #2D2D2D;
-  --primary-foreground: #FAFAF8;
-  --secondary: #F5F0E8;
-  --secondary-foreground: #2D2D2D;
-  --muted: #F0EDE6;
-  --muted-foreground: #7A7468;
-  --accent: #C5A55A;
-  --accent-foreground: #2D2D2D;
-  --destructive: #C45454;
-  --border: #E8E3D8;
-  --input: #E8E3D8;
-  --ring: #C5A55A;
-  --gold: #C5A55A;
-  --gold-light: #D4BA78;
-  --gold-dark: #A68A3E;
-  --ivory: #F5F0E8;
-  --cream: #FFF8E7;
-  --charcoal: #2D2D2D;
-  --brown: #3D2B1F;
+  --card-foreground: #1A1A1A;
+  --primary: #1A1A1A;
+  --primary-foreground: #FAFAF7;
+  --secondary: #F0EDE4;
+  --secondary-foreground: #1A1A1A;
+  --muted: #EDEAE1;
+  --muted-foreground: #6B6560;
+  --accent: #D4A843;
+  --accent-foreground: #1A1A1A;
+  --destructive: #C44545;
+  --border: #DDD8CC;
+  --input: #DDD8CC;
+  --ring: #D4A843;
+  --gold: #D4A843;
+  --gold-light: #E0BC66;
+  --gold-dark: #B08A2A;
+  --navy: #1B2A4A;
+  --navy-light: #2A3F6A;
+  --ivory: #F0EDE4;
+  --cream: #FFF6E0;
+  --charcoal: #1A1A1A;
+  --brown: #2E1F14;
 }
 
 @layer base {
