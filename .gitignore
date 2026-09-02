@@ -1,4 +1,28 @@
+# dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# production
+build/
+dist/
+
+# environment variables
+.env
 .env.local
-node_modules
-dist
-src/convex/_generated
+.env.*.local
+
+# generated files
+src/convex/_generated/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# debug
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+bun-debug.log*
